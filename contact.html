@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Crawford Treecare, Lakewood CO</title>
+  <meta name="description" content="Call Taylor at Crawford Treecare: (303) 941-5650. Email crawfordtreecare@gmail.com. 1420 S Saulsbury St, Lakewood, CO 80232.">
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;650;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="index.html">
+        <img class="mark" src="assets/mark.svg" alt="">
+        <span class="wordmark-text">
+          <strong>Crawford Treecare</strong>
+          <span>Lakewood, Colorado</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+          <li class="header-cta"><a class="btn btn-safety" href="tel:+13039415650">(303) 941-5650</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="section-kicker">Contact</p>
+        <h1>Based in Lakewood. Servicing all surrounding areas.</h1>
+        <p class="muted">Call or email Taylor directly. Free estimates.</p>
+      </div>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="wrap split">
+        <div class="panel">
+          <h2>Reach Taylor</h2>
+          <p><a href="tel:+13039415650">(303) 941-5650</a></p>
+          <p><a href="mailto:crawfordtreecare@gmail.com?subject=Treecare%20Inquiry">crawfordtreecare@gmail.com</a></p>
+          <p>1420 S Saulsbury St<br>Lakewood, CO 80232</p>
+          <p class="muted">Owner: Taylor J. Crawford<br>Crawford Treecare LLC</p>
+          <p><a href="https://maps.google.com/?q=1420+S+Saulsbury+St,+Lakewood,+CO+80232">Open in Google Maps</a></p>
+        </div>
+        <div class="panel">
+          <h2>Ask for a free estimate</h2>
+          <form onsubmit="sendInquiry(event)">
+            <label for="name">Name</label>
+            <input id="name" name="name" autocomplete="name" required>
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+            <label for="note">What do you need looked at?</label>
+            <textarea id="note" name="note" placeholder="Tree trimming, removal, injection, planting, consult…"></textarea>
+            <p style="margin-top:1rem">
+              <button class="btn btn-safety" type="submit">Open email to Taylor</button>
+            </p>
+            <p class="form-note">This preview has no inbox. The button opens your mail app to crawfordtreecare@gmail.com.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot-grid">
+      <div>
+        <strong style="color:var(--ink)">Crawford Treecare LLC</strong><br>
+        1420 S Saulsbury St, Lakewood, CO 80232
+      </div>
+      <div>
+        <a href="index.html">Home</a> ·
+        <a href="services.html">Services</a>
+      </div>
+    </div>
+  </footer>
+  <a class="mobile-call" href="tel:+13039415650">Call Taylor · (303) 941-5650</a>
+  <script src="assets/script.js"></script>
+</body>
+</html>
